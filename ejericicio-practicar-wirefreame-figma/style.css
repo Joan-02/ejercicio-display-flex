@@ -96,6 +96,14 @@ main {
 
 @media screen and (width >= 820px) {
 
-    
+    .cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        margin-bottom: 2em;
+        margin-right: 2em;
+    }
     
 }
