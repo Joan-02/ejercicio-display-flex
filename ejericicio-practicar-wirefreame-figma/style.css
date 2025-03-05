@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.header__logo {
+    width: 2em;
+    height: 2em;
+    margin-left: 1em;
+}
+
+.header__info {
+    align-items: center;
+}
+
+.header__info a {
+    padding: 0.5em 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.header__info img {
+    padding: 0.5em 1em;
+}
+
+header {
+    padding: 1em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    padding: 2em 2em;
+}
+
+.btn {
+    padding: 0.75em 1.5em;
+    font-size: 1rem;
+    border: 1px solid orange;
+    background-color: white;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.container-btn__add-dog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__add-dog {
+    margin-bottom: 3em;
+}
+
+.dog-img__profile {
+    width: 5em;
+    height: 5em;
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    width: 300px;
+    background-color: white;
+    border-radius: 14px;
+    padding: 1.5em 2em;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.08);
+    margin-bottom: 2em;
+}
+
+.dog-img__profile {
+    margin-right: 1em;
+}
+
+.dog-name__profile {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (width >= 820px) {
+
+    
+    
+}
