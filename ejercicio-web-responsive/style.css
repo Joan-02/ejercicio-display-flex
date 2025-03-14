@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-  }
+}
 
 html {
     font:
@@ -17,6 +17,7 @@ header {
     background-color: #333;
     color: #fff;
     border: 5px solid #000;
+    height: 100px;
 }
 
 header ul {
@@ -75,6 +76,10 @@ main {
 
 @media screen and (width <= 950px) {
 
+    * {
+        box-sizing: border-box;
+    }
+
     header {
         display: flex;
         justify-content: space-between;
@@ -84,10 +89,11 @@ main {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 100%;
+        top: 100px;
         left: 0;
         background-color: #333;
         width: 100%;
+        padding: 0;
     }
     
     .menu {
@@ -101,7 +107,10 @@ main {
     
     .menu-open nav ul {
         display: flex;
+        width: 100vw;
+        height: 100vh;
     }
+
 }
 
 @media screen and (width >= 950px) {
