@@ -73,7 +73,38 @@ main {
     color: #fff;
 }
 
-@media screen and (width >= 800px) {
+@media screen and (width <= 950px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: #333;
+        width: 100%;
+    }
+    
+    .menu {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 2em;
+        color: white;
+        cursor: pointer;
+    }
+    
+    .menu-open nav ul {
+        display: flex;
+    }
+}
+
+@media screen and (width >= 950px) {
     body {
         margin: 0;
     }
@@ -90,6 +121,10 @@ main {
       
     header a {
       border-top: none;
+    }
+
+    .menu {
+        display: none;
     }
 
     main {
